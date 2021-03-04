@@ -63,18 +63,31 @@ header,main,footer{
 }
 
 .nav1-btn1{
+    background-color: white;
     color: orange;
     padding: 10px;
     display: inline;
     margin: 0 30px;
     border-radius: 8px;
+    border-color: orange;
 }
 
 .nav1-btn2{
+    display: inline;
     background-color: orange;
     color: white;
     padding: 10px;
     border-radius: 8px;
+    border: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.link2{
+    text-decoration: none;
+    color: white;
 }
 
 /* nav2 */
@@ -115,20 +128,38 @@ li{
     text-decoration: none;
 }
 
+/* hero */
 .hero{
     background-image: url('img/jumbotron.png');
     background-color: #fff4ee;
     background-size: contain;
     background-repeat: no-repeat;
     background-position-x: right;
-    height: 500px;
-    margin-bottom: -60px;
+    height: 600px;
+    margin-bottom: -71px;
 }
 
 .first-info{
     height: 500px;
     width: 50%;
     padding: 70px;
+    padding-top: 50px;
+}
+
+.title{
+    font-size: 50px;
+    margin-bottom: 35px;
+}
+
+.big-btn{
+    width: 170px;
+    margin: 35px 0;
+    font-size: 17px;
+    padding: 20px 20px;
+    background-color: orange;
+    color: white;
+    border:none;
+    border-radius: 8px;
 }
 
 .navfoot{
@@ -136,24 +167,160 @@ li{
     height: 80px;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
-
 }
 
+/* centro */
+
+/* primo blocco */
 .content-up{
     background-color: rgb(194, 234, 241);
-    height: 800px;
-
+    height: 1400px;
 }
 
+.dado{
+    width: 300px;
+    padding-top: 20px;
+    object-fit: cover;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.dado1{
+    object-fit: contain;
+    height: 200px;
+}
+
+.pubbl{
+    text-align: center;
+}
+
+.wh-block{
+    margin: 20px 70px;
+    background-color: white;
+    height: 300px;
+    border-radius: 8px;
+}
+
+.quadrato1{
+    width: 30%;
+    height: 100%;
+    padding: 20px;
+
+    display: inline;
+    float: left;
+}
+
+.int-quad1{
+    width: 50%;
+    margin: auto;
+}
+
+.libro1{
+    height: 100px;
+    margin: auto;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.med-btn{
+    margin: 35px 0;
+    text-align: center;
+    font-size: 17px;
+    padding: 20px 20px;
+    background-color: orange;
+    color: white;
+    border:none;
+    border-radius: 8px;
+}
+
+.rettangolo1{
+    width: 70%;
+    height: 100%;
+    float: left;
+    padding: 60px;
+}
+
+.free-hub{
+    margin: 30px 0;
+}
+
+.pop-feat{
+    display: inline;
+    width: 50%;
+    height: 20px;
+    float: left;
+}
+
+.hr{
+    display: inline;
+    width: 50%;
+    height: 25px;
+    line-height: 25px;
+    float: left;
+}
+
+.feature{
+    padding-top: 40px;
+}
+
+.spunta{
+    color: white;
+    background-color: orange;
+    font-size: 17px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.feature:not(:first-child){
+    margin-left: -20px;
+}
+
+/* colonne */
+.column{
+    margin: 20px 70px;
+    width: 25%;
+    height: 700px;
+    border-radius: 8px;
+    background-color: white;
+    display: inline;
+    float: left;
+}
+
+.column-central{
+    margin: 20px 35px;
+}
+
+.hub{
+    text-align: center;
+}
+
+.hub-spec{
+    text-align: center;
+    margin: 20px 40px 70px 40px;
+}
+
+.col-hr{
+    width: 70%;
+    margin: auto;
+}
+
+/* secondo blocco */
 .content-center{
     background-color: rgb(28, 156, 139);
     height: 400px;
 }
 
+
+/* terzo blocco */
 .content-down{
     height: 400px;
 }
 
+/* footer */
 footer{
     height: 400px;
     background-color: rgb(18, 18, 68);
