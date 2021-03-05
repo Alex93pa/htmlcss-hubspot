@@ -329,10 +329,8 @@ ol{
 }
 
 .ul-col{
-    text-decoration: none;
+    list-style: none;
 }
-
-
 
 .col-btn{
     text-align: center;
@@ -349,13 +347,75 @@ ol{
 /* secondo blocco */
 .content-center{
     background-color: rgb(28, 156, 139);
+    height: 600px;
+}
+
+.content-cc{
+    height: 600px;
+    margin: 0 70px;
+    padding: 20px;
+}
+
+.h1-cc{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.h5-cc{
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.incontent-cc{
+    width: 80%;
     height: 400px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.mini-quad{
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+    display: inline;
+    float: left;
+    width: 25%;
+    height: 50%;
+    margin-right: -1px;
+    margin-bottom: -5px;
+}
+
+.mini-ret{
+    height: 100%;
+    width: 60%;
+    margin: auto;
+    padding-top: 8%;
+}
+
+.mini-img{
+    text-align: center;
+    height: 33px;
+}
+
+.h1-num, .h5-descr{
+    color: white;
+    text-align: center;
+    padding: 10%
 }
 
 
 /* terzo blocco */
 .content-down{
-    height: 400px;
+    height: 600px;
+}
+
+.box-cd{
+    display: inline;
+    float: left;
+    height: 600px;
+    width: 50%;
+        border: 1px solid black;
 }
 
 /* footer */
