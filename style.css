@@ -85,6 +85,7 @@
 
 .link{
     text-decoration: none;
+    color: black;
 }
 
 .link2{
@@ -441,6 +442,7 @@ ol{
 
 .interno{
     height: 400px;
+    margin: auto;
 }
 
 .mini-quad{
