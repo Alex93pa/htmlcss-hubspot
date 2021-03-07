@@ -135,6 +135,7 @@ ol{
     background: none;
     border: none;
     text-decoration: none;
+    color: black;
 }
 
 /* hero */
@@ -147,7 +148,7 @@ ol{
 }
 
 .hero{
-    max-width: 1400px;
+    width: 1400px;
     margin: auto;
     background-image: url('img/jumbotron.png');
     background-color: rgb(255,244,238);
@@ -217,7 +218,7 @@ ol{
 .content-up{
     background-color: rgb(194, 234, 241);
     height: 1400px;
-    max-width: 1400px;
+    width: 1400px;
     margin: auto;
 }
 
@@ -408,7 +409,7 @@ ol{
 .content-center{
     background-color: rgb(28, 156, 139);
     height: 600px;
-    max-width: 1400px;
+    width: 1400px;
     margin: auto;
 }
 
@@ -436,6 +437,10 @@ ol{
     margin: auto;
     overflow: hidden;
     padding-bottom: -30px;
+}
+
+.interno{
+    height: 400px;
 }
 
 .mini-quad{
@@ -469,29 +474,126 @@ ol{
 
 
 /* terzo blocco */
-.content-down{
+
+.content-down-all{
     height: 600px;
+}
+
+.content-down1{
+    height: 200px;
+    width: 1400px;
+    margin: auto;
+}
+
+.content-down2{
+    height: 400px;
     max-width: 1400px;
     margin: auto;
 }
 
-.box-cd{
+.box-cd-1{
     display: inline;
     float: left;
-    height: 600px;
+    height: 100%;
+    width: 40%;
+}
+
+.box-cd-2{
+    display: inline;
+    float: left;
+    width: 60%;
+    height: 100%;
+}
+
+.box-cd-3{
+    display: inline;
+    float: left;
     width: 50%;
-    border: 1px solid black;
+    height: 100%;
+}
+
+.box-cd-4{
+    display: inline;
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 2%;
+}
+
+.num-cust{
+    height: 100%;
+    width: 80%;
+    float: right;
+    text-align: center;
+    padding-top: 5%;
+}
+
+.num-cust>h5{
+    margin-top: 10%;
+    line-height: 20px;
+}
+
+.sponsor{
+    width: 23%;
+    height: 50%;
+    float: left;
+    display: inline;
+}
+
+.sponsor-margin{
+    width: 8%;
+    height: 50%;
+    float: left;
+    display: inline;
+}
+
+.img-sponsor{
+    height: 100%;
+    width: 100%;
+    padding: 6%;
+    object-fit: contain;
+}
+
+.box-cd-3>h1{
+    font-size: 40px;
+    margin: 20px 10px 20px 70px
+}
+
+.box-cd-3>h4{
+    margin: 20px 50px 20px 70px
+    
+}
+
+.big-btn2{
+    width: 170px;
+    margin: 35px 70px;
+    font-size: 17px;
+    padding: 20px 20px;
+    background-color: orange;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.box-cd-3>h5{
+    margin-left: 70px;
+}
+
+.girl{
+    object-fit: contain;
+    height: 100%;
+    float: right;
 }
 
 /* footer */
 
 .footer-all{
-    height: 400px;
+    height: 600px;
     width: 100%;
     background-color: rgb(18, 18, 68);
 
 }
 .footer{
-    height: 400px;
+    height: 600px;
     background-color: rgb(18, 18, 68);
 }
