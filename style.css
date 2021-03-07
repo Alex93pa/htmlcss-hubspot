@@ -591,9 +591,44 @@ ol{
     height: 600px;
     width: 100%;
     background-color: rgb(18, 18, 68);
-
 }
+
 .footer{
     height: 600px;
+    width: 1400px;
     background-color: rgb(18, 18, 68);
+    margin: auto;
+}
+
+.footer-col-lat{
+    width: 5%;
+    float: left;
+    display: inline;
+    height: 60%;
+}
+
+.footer-col-center{
+    width: 90%;
+    height: 60%;
+    float: left;
+    display: inline;
+}
+
+.footer-ul-list{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    padding: 10% 0;
+}
+
+.footer-list{
+    width: 25%;
+    float: left;
+    height: 100%;
+}
+
+.footer-link{
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
 }
