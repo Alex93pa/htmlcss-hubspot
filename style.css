@@ -651,6 +651,12 @@ ol{
 
 }
 
+.footer-final{
+    width: 1400px;
+    height: 150px;
+    margin: auto;
+}
+
 .lang{
     text-align: center;
 }
@@ -672,18 +678,39 @@ ol{
     text-decoration: none;
     color:white;
     margin: auto;
+    margin-left: 20px;
 }
 
 .footer-hr{
     color: white;
-    width: 80%;
+    width: 90%;
     margin: auto;
     margin-top: .5%;
     margin-bottom: .5%;
 }
 
-.footer-final{
-    height: 40%;
+/* .footer-final{
+    width: 1400px;
+    height: 150px;
     border: 1px solid black;
+    margin: auto;
+} */
 
+.footer-img{
+    float: left;
+    bottom: 0;
+    margin-left: 70px;
+    margin-top: 19px;
+}
+
+.copyright{
+    color: white;
+    margin-top: 3%;
+}
+
+.privacy{
+    display: inline;
+    float: right;
+    margin-right: 70px;
+    margin-top: 19px;
 }
