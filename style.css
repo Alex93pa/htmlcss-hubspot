@@ -593,8 +593,8 @@ ol{
     background-color: rgb(18, 18, 68);
 }
 
-.footer{
-    height: 600px;
+.footer-up{
+    height: 450px;
     width: 1400px;
     background-color: rgb(18, 18, 68);
     margin: auto;
@@ -604,12 +604,12 @@ ol{
     width: 5%;
     float: left;
     display: inline;
-    height: 60%;
+    height: 100%;
 }
 
 .footer-col-center{
     width: 90%;
-    height: 60%;
+    height: 100%;
     float: left;
     display: inline;
 }
@@ -631,4 +631,59 @@ ol{
     color: white;
     text-decoration: none;
     line-height: 50px;
+}
+
+.footer-btn{
+    background-color: gray;
+    text-align: center;
+    font-size: 17px;
+    padding: 10px 6px;
+    border-radius: 8px;
+    width: 69%;   
+}
+
+.link3{
+    text-decoration: none;
+    color: rgb(7, 7, 92);
+}
+
+.social{
+
+}
+
+.lang{
+    text-align: center;
+}
+
+.footer-lang{
+    list-style: none;
+    display: inline;
+}
+
+.li-lang{
+    display: inline;
+    background: none;
+    border: none;
+    text-decoration: none;
+    margin: 0 2%;
+}
+
+.link-lang{
+    text-decoration: none;
+    color:white;
+    margin: auto;
+}
+
+.footer-hr{
+    color: white;
+    width: 80%;
+    margin: auto;
+    margin-top: .5%;
+    margin-bottom: .5%;
+}
+
+.footer-final{
+    height: 40%;
+    border: 1px solid black;
+
 }
