@@ -118,7 +118,7 @@
     height: 80px;
     line-height: 80px;
     float: right;
-    margin: 0 70px;
+    width: 40%;
 }
 
 ol{
@@ -130,6 +130,7 @@ ol{
     background: none;
     border: none;
     text-decoration: none;
+    margin-left: 4%;
 }
 
 #nav2-select{
