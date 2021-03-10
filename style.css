@@ -671,7 +671,7 @@ ol{
     width: 1400px;
     height: 150px;
     margin: auto;
-    background-color: (5, 5, 58);
+    background-color: rgb(5, 5, 58);
 }
 
 .lang{
